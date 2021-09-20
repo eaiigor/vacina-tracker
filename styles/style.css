@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(230, 230, 230));
+  font-family: 'Bitter', serif;
+}
+
+header{
+  width: 100%;
+  height: 0.6rem;
+  background-color: rgb(171, 171, 171);
+}
+
+section{
+ /* background: crimson;*/
+  font-weight: 600;
+}
+
+.data{
+  padding-top: 3rem;
+  width: 50rem;
+  height: 10rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.fontday{
+  color: rgb(31, 31, 31);
+  margin-top: 5px;
+  font-size: 35px; 
+  color: rgb(43, 43, 43);
+}
+
+.vacinados{
+  background-color: darkgray;
+  width: 50rem;
+  height: 15rem;
+  margin: 0 auto;
+}
+
+.vacinados img{
+  width: 50px;
+}
