@@ -87,8 +87,8 @@ section{
 }
 
 .caixafooter{
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  background-color: aquamarine;
+  margin: 3rem auto 0 auto;
+  background-color: aqua;
+  height: 10rem;
 }
