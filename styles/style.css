@@ -4,14 +4,14 @@
 }
 
 body{
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(236, 236, 236));
+  background-image: white;
   font-family: 'Bitter', serif;
 }
 
 header{
   width: 100%;
   height: 0.6rem;
-  background-color: rgb(148, 148, 148);
+  background-color: rgb(193, 193, 193);
 }
 
 section{
@@ -24,13 +24,13 @@ section{
 
 .logo{
   margin: 5px 0 0 83%;
-   
+  font-size: ;
 }
 
 .data{
-  padding-top: 3rem;
+  padding-top: 1rem;
   width: 50rem;
-  height: 10rem;
+  height: 7.5rem;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -73,7 +73,7 @@ section{
 
 .borda{
   background-color: rgb(209, 209, 209);
-  border: 2px solid rgb(204, 204, 204);
+  border: 2px solid rgb(239, 239, 239);
   font-weight: bold;
   padding: 0 18px;
   border-radius: 8px;
@@ -86,9 +86,35 @@ section{
   margin-right: 1px;
 }
 
+footer{
+  width: 30rem;
+  margin: 1rem auto;
+  background-color: rgb(167, 167, 167);
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
 .caixafooter{
-  width: 100%;
-  margin: 3rem auto 0 auto;
-  background-color: aqua;
-  height: 10rem;
+  width: 20rem;
+  color: rgb(43, 43, 43);
+  font-weight: bold;
+}
+
+.copyright{
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.socialmedia{
+  font-size: 20px;
+  margin-left: 28%
+}
+
+.socialmedia a{
+  margin: 0 2px 2px 0 ;
+  color: black;
 }
